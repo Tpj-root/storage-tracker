@@ -3,6 +3,19 @@ Personal HDD archive: records serials, sizes, OS history, and usage dates.
 
 
 
+### Help_commands
+
+```
+get HDD Deatils
+
+lsblk -o NAME,SIZE,SERIAL,MODEL
+
+```
+
+
+
+
+
 # HDD Timeline Log
 
 This log tracks all hard drives, their OS installs, and the system context they were used in.  
@@ -22,5 +35,7 @@ Each row represents one disk with full hardware details for future reference.
 - Commit changes to GitHub for automatic timeline/history.  
 - Use **Serial Number** as the unique key for each HDD.  
 - If some fields don’t apply (e.g., no GPU, no SMPS for laptop) leave them blank.  
+
+
 
 
